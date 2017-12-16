@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context="com.samuel.smartgallery.smartgallery.ClassifierActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="220dip"
+        android:layout_marginTop="30dip"
+        android:layout_height="320dip"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_below="@id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Choose a picture from your gallery to analyse it"/>
+
+    <Button
+        android:id="@+id/selectPhoto"
+        android:layout_below="@id/imageView1"
+        android:layout_marginTop="50dip"
+        android:layout_width="160dip"
+        android:layout_height="50dip"
+        android:layout_gravity="bottom|center"
+        android:text="select Photo"
+        android:onClick="selectPhoto"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Button1Style"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>
